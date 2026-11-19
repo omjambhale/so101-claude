@@ -2,7 +2,7 @@
 
 **Control a robot arm with just Claude. No data collection. No training.**
 
-<!-- DEMO_VIDEO -->
+https://github.com/user-attachments/assets/af61f70c-a99b-4776-b738-b1efaaea80c4
 
 *Claude spelling FABLE52 with foam letters, on its own, using an SO-101 arm and two cameras.*
 
