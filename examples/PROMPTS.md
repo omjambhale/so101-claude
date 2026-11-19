@@ -1,24 +1,24 @@
-# Example prompts
+# Things to say to Claude
 
-Start every session with: **"Check the robot."** (Claude calls `get_state` and tells you if anything is missing.)
+Start each session with: **"Check the robot."**
 
 ## First time
-- "Help me calibrate the table." (needs the 4 tape marks)
-- "Set up precision mode." (optional, for tight placing; uses the wrist camera)
+- "Help me calibrate the table."
+- "Set up precision mode." (optional, for neat placing like spelling words)
 
-## Simple
-- "What do you see on the table?"
-- "Pick up the yellow block and put it in the top-left corner."
-- "Open the gripper halfway." / "Go home."
+## Everyday
+- "What's on the table?"
+- "Pass me the pen."
+- "Put the blue cube in the top-left corner."
+- "Clear the table into the box."
 
-## Multi-step
-- "Spell FABLE52 with the foam letters in a straight line near the bottom edge of the mat. Turn each letter
-  so it reads correctly from the camera."
-- "Sort the letters: vowels on the left, consonants on the right."
-- "Stack the three cubes, biggest at the bottom."
-- "Put every pen into the cup."
+## Fun
+- "Spell my name with the foam letters, in a straight line."
+- "Sort the blocks by colour: red left, blue right."
+- "Stack the cubes, biggest at the bottom."
+- "Make a smiley face with the coins."
 
 ## Tips
-- Objects should be within reach and inside the area of the 4 tape marks.
-- Flat, light objects at least ~1.5 cm wide work best with the stock gripper.
-- If something slips, ask Claude to look with the wrist camera and try again; it adjusts.
+- Keep objects inside the area of the 4 tape marks.
+- Light, flat objects at least ~1.5 cm wide work best with the stock gripper.
+- If something slips, just say "try again". Claude checks the wrist camera and adjusts.
