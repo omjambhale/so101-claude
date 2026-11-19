@@ -1,0 +1,4 @@
+# Install LeRobot >= 0.6 first (it brings numpy, OpenCV and the Feetech servo SDK):
+#   https://huggingface.co/docs/lerobot/installation   ->   pip install 'lerobot[feetech]'
+# Then, in the same environment:
+mcp>=2.3,<3

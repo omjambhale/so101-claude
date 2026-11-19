@@ -1,0 +1,22 @@
+# personal / machine-specific (never commit)
+config.json
+config.json.tmp
+table_calibration.json
+frames/
+*.backup-*
+
+# media
+*.mov
+*.mp4
+*.MOV
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# os / editors
+.DS_Store
+.idea/
+.vscode/
